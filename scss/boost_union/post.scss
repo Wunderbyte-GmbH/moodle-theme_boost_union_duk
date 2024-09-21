@@ -2567,3 +2567,17 @@ body.dir-rtl {
         }
     }
 }
+
+/*=======================================
+ * DUK
+ ======================================*/
+@include media-breakpoint-up(lg) {
+    #page.drawers.show-drawer-primary {
+        margin-left: 285px;
+        margin-right: 0;
+        padding-left: 1rem;
+    }
+    .drawer.drawer-primary.show {
+        z-index: $zindex-popover;
+    }
+}
